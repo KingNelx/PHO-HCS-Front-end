@@ -1,5 +1,5 @@
 import './App.css';
-import { render } from "react-dom";
+
 import {
   BrowserRouter,
   Routes,
