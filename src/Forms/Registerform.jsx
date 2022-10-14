@@ -2,7 +2,7 @@ import { Link } from "react-router-dom"
 
 const Registerform = () => {
     return (
-        <div className="container mt-2 py-2 ">
+        <div className="container mt-5 py-5 ">
             <h2 className="text-center"> Sign up</h2>
             <p className="fw-bold"> Doctor's Information</p>
             <form class="row g-3 needs-validation" novalidate>
