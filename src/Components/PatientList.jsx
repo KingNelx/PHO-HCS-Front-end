@@ -1,7 +1,23 @@
 import { Link } from "react-router-dom"
-
+import axios from "axios"
+import { useState, useEffect } from "react";
 import Time from "./TIme";
+
 const PatientList = () => {
+
+    const [patients, setPatients] = useState([])
+    useEffect(() => {
+        loadPatient()
+    }, [])
+
+    const loadPatient = async() => {
+        const loadPatients = await axios.get("http://localhost:8080/showPatients");
+    }
+
+    const addPatient = () => {
+        const addPatients = axios.post("http://localhost:8080/addPatients");
+    }
+
     return (
         <div>
             <p className="d-flex justify-content-center mt-5 py-5"> <b>Current Time: </b> <Time /></p>
@@ -25,17 +41,6 @@ const PatientList = () => {
                             <td>Tapia</td>
                             <td>Bato</td>
                             <td>Monday @ October 5 2022</td>
-                            <td>
-                                <button className="mx-2 btn btn-outline-primary">View</button>
-                                <button className="btn btn-outline-danger">Delete</button>
-                            </td>
-                        </tr>
-                        <tr>
-                            <th scope="row">2</th>
-                            <td>Elon</td>
-                            <td>Musk</td>
-                            <td>Baras</td>
-                            <td>Friday @ April 24 2022</td>
                             <td>
                                 <button className="mx-2 btn btn-outline-primary">View</button>
                                 <button className="btn btn-outline-danger">Delete</button>
