@@ -15,15 +15,16 @@ const PatientList = () => {
         setPatients(loadPatients.data)
     }
 
-    // const addPatient = () => {
-    //     const addPatients = axios.post("http://localhost:8080/addPatients");
-    // }
+    const addPatient = () => {
+        const addPatients = axios.post("http://localhost:8080/addPatients");
+    }
 
     return (
         <div>
             <p className="d-flex justify-content-center mt-5 py-5"> <b>Current Time: </b> <Time /></p>
             <div className="container text-center">
                 <h2> List of Patients </h2>
+                <Link to="/categories"><button className="d-flex justify-content-end btn btn-outline-info"> Other Categories </button></Link>
                 <table class="table table-striped">
                     <thead>
                         <tr>
@@ -37,18 +38,18 @@ const PatientList = () => {
                     </thead>
                     <tbody>
                         {
-                            patients.map((patient, index) =>  (
+                            patients.map((patient, index) => (
                                 <tr>
-                                <th scope="row" key={index}>{index +1}</th>
-                                <td>{patient.firstName}</td>
-                                <td>{patient.lastName}</td>
-                                <td>{patient.address}</td>
-                                <td>{patient.patientType}</td>
-                                <td>
-                                    <button className="mx-2 btn btn-outline-primary">View</button>
-                                    <button className="btn btn-outline-danger">Delete</button>
-                                </td>
-                            </tr>
+                                    <th scope="row" key={index}>{index + 1}</th>
+                                    <td>{patient.firstName}</td>
+                                    <td>{patient.lastName}</td>
+                                    <td>{patient.address}</td>
+                                    <td>{patient.patientType}</td>
+                                    <td>
+                                        <button className="mx-2 btn btn-outline-primary">View</button>
+                                        <button className="btn btn-outline-danger">Delete</button>
+                                    </td>
+                                </tr>
                             ))
                         }
 
