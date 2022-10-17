@@ -13,6 +13,7 @@ import DocTopNav from './Doctors/DocTopNav';
 import DoctorsProfile from './Doctors/DoctorsProfile';
 import PatientList from './Components/PatientList';
 import Categories from './Components/Categories';
+import PatientLogform from './Patient/PatientLogform';
 
 const App = () => {
   return (
@@ -28,6 +29,7 @@ const App = () => {
           <Route path="/profile" element={<DoctorsProfile />} />
           <Route path="/patientlist" element={<PatientList />} />
           <Route path="/categories" element={<Categories />} />
+          <Route path="/patientLogform" element={<PatientLogform />} />
         </Routes>
       </BrowserRouter>
     </div>

@@ -40,7 +40,7 @@ const UserHome = () => {
                             }} src="https://d1nhio0ox7pgb.cloudfront.net/_img/v_collection_png/512x512/shadow/patient.png" class="card-img-top" alt="..." />
                             <div class="card-body">
                                 <h5 class="card-title">Patient</h5>
-                                <a href="#" class="btn btn-primary">Select</a>
+                                <Link to ="/patientLogform" class="btn btn-primary">Select</Link>
                             </div>
                         </div>
                     </div>
