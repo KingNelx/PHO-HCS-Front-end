@@ -47,7 +47,7 @@ const Registerform = () => {
                     </select>
                 </div>
                 <div class="col-md-3">
-                    <label for="validationCustom05" class="form-label ">PRC Number</label>
+                    <label for="validationCustom05" class="form-label fw-bold">PRC Number</label>
                     <input type="text" class="form-control" id="validationCustom05" placeholder="PRC" required />
                 </div>
                 <div class="col-md-3">

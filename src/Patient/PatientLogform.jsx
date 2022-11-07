@@ -18,7 +18,7 @@ const PatientLogform = () => {
                     <label for="exampleInputPassword1" class="form-label">Confirm Password</label>
                     <input type="password" class="form-control" id="exampleInputPassword1" required placeholder="Confirm Password" />
                 </div>
-                <Link to="/doctopnav" type="submit" class="btn btn-outline-primary mx-2">Submit</Link>
+                <Link to="/patientTopNav" type="submit" class="btn btn-outline-primary mx-2">Submit</Link>
                 <Link to="/" type="submit" class="btn btn-outline-success ">Go Back</Link>
                 <Link to="/registerform" className="px-3">No Account? Go Sign up</Link>
             </form>
