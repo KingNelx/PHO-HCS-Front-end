@@ -20,7 +20,7 @@ const PatientLogform = () => {
                 </div>
                 <Link to="/patientTopNav" type="submit" class="btn btn-outline-primary mx-2">Submit</Link>
                 <Link to="/" type="submit" class="btn btn-outline-success ">Go Back</Link>
-                <Link to="/registerform" className="px-3">No Account? Go Sign up</Link>
+                <Link to="/patientRegform" className="px-3">No Account? Go Sign up</Link>
             </form>
         </div>
     );

@@ -14,7 +14,7 @@ const DoctorDashB = () => {
                             } />
                             <div class="card-body ">
                                 <h5 class="card-title">Patients</h5>
-                                <Link to="/patientlist" class="btn btn-primary">Go somewhere</Link>
+                                <Link to="/patientlist" class="btn btn-primary">Select</Link>
                             </div>
                         </div>
                     </div>
@@ -27,7 +27,7 @@ const DoctorDashB = () => {
                             } />
                             <div class="card-body">
                                 <h5 class="card-title">Schedule</h5>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                                <a href="#" class="btn btn-primary">Select</a>
                             </div>
                         </div>
                     </div>
@@ -40,7 +40,7 @@ const DoctorDashB = () => {
                             } />
                             <div class="card-body">
                                 <h5 class="card-title ">Medicines</h5>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                                <a href="#" class="btn btn-primary">Select</a>
                             </div>
                         </div>
                     </div>

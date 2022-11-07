@@ -14,7 +14,11 @@ import DoctorsProfile from './Doctors/DoctorsProfile';
 import PatientList from './Components/PatientList';
 import Categories from './Components/Categories';
 import PatientLogform from './Patient/PatientLogform';
+
 import PatientTopNav from './Patient/PatientTopNav';
+
+import PatientRegform from './Patient/PatientRegform';
+
 
 const App = () => {
   return (
@@ -31,7 +35,11 @@ const App = () => {
           <Route path="/patientlist" element={<PatientList />} />
           <Route path="/categories" element={<Categories />} />
           <Route path="/patientLogform" element={<PatientLogform />} />
+
           <Route path="/patientTopNav" element={<PatientTopNav />} />
+
+          <Route path="/patientRegform" element={<PatientRegform />} />
+
         </Routes>
       </BrowserRouter>
     </div>
