@@ -4,6 +4,7 @@ import { Link } from "react-router-dom"
 const PatientList = () => {
     return (
         <div className="container mt-5">
+            <h2 className="mb-5">List of Patients</h2>
             <table class="table table-striped text-center">
                 <thead>
                     <tr>
@@ -25,7 +26,9 @@ const PatientList = () => {
                         <td>09071205892</td>
                         <td>RHU Bato</td>
                         <td>
-                            <Buttons />
+                            <Link to="/qrCode" type="button" class="btn btn-outline-primary ">View</Link>
+                            <button type="button" class="btn btn-outline-success mx-1">Update</button>
+                            <button type="button" class="btn btn-outline-danger ">Disable</button>
                         </td>
                     </tr>
 
@@ -37,7 +40,9 @@ const PatientList = () => {
                         <td>09456222029</td>
                         <td>RHU Baras</td>
                         <td>
-                            <Buttons />
+                            <button type="button" class="btn btn-outline-primary ">View</button>
+                            <button type="button" class="btn btn-outline-success mx-1">Update</button>
+                            <button type="button" class="btn btn-outline-danger ">Disable</button>
                         </td>
                     </tr>
                 </tbody>

@@ -13,6 +13,7 @@ import PatientHOME from './Patient/PatientHOME';
 import DoctorsList from './PHO/DoctorsList';
 import PatientList from './PHO/PatientList';
 import RHUList from './PHO/RHUList';
+import QrCode from './Components/QrCode';
 
 const App = () => {
   return (
@@ -27,6 +28,7 @@ const App = () => {
           <Route path="phoDocList" element={<DoctorsList />} />
           <Route path="phoPatientList" element={<PatientList />} />
           <Route path="phoRhuList" element={<RHUList />} />
+          <Route path="qrCode" element={<QrCode />} />
 
           <Route path="rhuLogform" element={<RHULogform />} />
           <Route path="rhuRegform" element={<RHURegform />} />

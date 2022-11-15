@@ -10,35 +10,29 @@ const Users = () => {
             <div class="container text-center mt-5">
                 <div class="row">
                     <div class="col mx-3 mt-5">
-                        <div class="card" style={
-                            { width: "18rem" }
-                        }>
+                        <div class="card" >
                             <img src={pho} class="card-img-top" alt="..." />
                             <div class="card-body">
                                 <h5 class="card-title">PHO</h5>
-                                <Link to="/phoLogform" class="btn btn-primary">Go somewhere</Link>
+                                <Link to="/phoLogform" class="btn btn-primary">Select</Link>
                             </div>
                         </div>
                     </div>
                     <div class="col  mx-2 mt-5">
-                        <div class="card" style={
-                            { width: "18rem" }
-                        }>
+                        <div class="card" >
                             <img src={rhu} class="card-img-top" alt="..." />
                             <div class="card-body">
                                 <h5 class="card-title">RHU</h5>
-                                <Link to="/rhuLogform" class="btn btn-primary">Go somewhere</Link>
+                                <Link to="/rhuLogform" class="btn btn-primary">Select</Link>
                             </div>
                         </div>
                     </div>
                     <div class="col  mx-2 mt-5">
-                        <div class="card" style={
-                            { width: "18rem" }
-                        }>
+                        <div class="card" >
                             <img src={patient} class="card-img-top" alt="..." />
                             <div class="card-body">
                                 <h5 class="card-title">Patient</h5>
-                                <Link to="/patientLogform" class="btn btn-primary">Go somewhere</Link>
+                                <Link to="/patientLogform" class="btn btn-primary">Select</Link>
                             </div>
                         </div>
                     </div>

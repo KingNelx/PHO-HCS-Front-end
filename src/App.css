@@ -1,3 +1,8 @@
-.pho-img-dashb img{
+.pho-img-dashb img {
     height: 30vh;
+}
+
+.qr-img img {
+    height: 80vh;
+    width: 50%;
 }

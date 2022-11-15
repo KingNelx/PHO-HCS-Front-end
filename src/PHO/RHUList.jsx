@@ -4,6 +4,7 @@ import Buttons from "../Components/Buttons";
 const RHUList = () => {
     return (
         <div className="container mt-5">
+                  <h2 className="mb-5">List of RHU</h2>
             <table class="table table-striped text-center">
                 <thead>
                     <tr>

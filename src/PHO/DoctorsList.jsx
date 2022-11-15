@@ -4,6 +4,7 @@ import { Link } from "react-router-dom"
 const DoctorsList = () => {
     return (
         <div className="container mt-5">
+            <h2 className="mb-5">List of Doctors</h2>
             <table class="table table-striped text-center">
                 <thead>
                     <tr>
