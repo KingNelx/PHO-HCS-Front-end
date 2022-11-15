@@ -26,9 +26,20 @@ const DoctorsList = () => {
                             <Buttons />
                         </td>
                     </tr>
+
+                    <tr>
+                        <th scope="row">2</th>
+                        <td>John</td>
+                        <td>Doe</td>
+                        <td>Virac</td>
+                        <td>Medical genetics</td>
+                        <td>
+                            <Buttons />
+                        </td>
+                    </tr>
                 </tbody>
             </table>
-            <Link to ="/phoHome" >Go Back</Link>
+            <Link to="/phoHome" >Go Back</Link>
         </div >
     );
 }

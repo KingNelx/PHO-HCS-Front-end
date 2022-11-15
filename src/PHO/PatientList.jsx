@@ -11,7 +11,8 @@ const PatientList = () => {
                         <th scope="col">First name</th>
                         <th scope="col">Last name</th>
                         <th scope="col">Address</th>
-                        <th scope="col">Specialties</th>
+                        <th scope="col">Contact Number</th>
+                        <th scope="col">RHU</th>
                         <th scope="col">Action</th>
                     </tr>
                 </thead>
@@ -21,7 +22,20 @@ const PatientList = () => {
                         <td>Jonel</td>
                         <td>Tapia</td>
                         <td>Bato</td>
-                        <td>Dermatology</td>
+                        <td>09071205892</td>
+                        <td>RHU Bato</td>
+                        <td>
+                            <Buttons />
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row">2</th>
+                        <td>Lebron</td>
+                        <td>James</td>
+                        <td>Baras</td>
+                        <td>09456222029</td>
+                        <td>RHU Baras</td>
                         <td>
                             <Buttons />
                         </td>
