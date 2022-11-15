@@ -5,13 +5,12 @@ import Users from './Components/Users';
 
 const App = () => {
   return (
-    <div> 
+    <div>
       <Router>
-      
+
         <Routes>
-          <Route path="/" element={<Users />}></Route>
+          <Route path="/" element={<Users />} />
         </Routes>
-        
       </Router>
     </div>
   );
