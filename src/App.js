@@ -6,6 +6,7 @@ import PHORegform from './PHO/PHORegform';
 import PHOHome from './PHO/PHOHome';
 import RHULogform from './RHU/RHULogform';
 import RHURegform from './RHU/RHURegform';
+import RHUHome from './RHU/RHUHome';
 
 const App = () => {
   return (
@@ -24,6 +25,7 @@ const App = () => {
 
           <Route path="rhuLogform" element={<RHULogform />} />
           <Route path="rhuRegform" element={<RHURegform />} />
+          <Route path="rhuHome" element={<RHUHome />} />
         </Routes>
       </Router>
     </div>
