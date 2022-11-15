@@ -1,7 +1,7 @@
 const PatientDashB = () => {
     return ( 
         <div>
-            
+            TEST
         </div>
      );
 }

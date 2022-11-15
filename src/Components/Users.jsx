@@ -38,7 +38,7 @@ const Users = () => {
                             <img src={patient} class="card-img-top" alt="..." />
                             <div class="card-body">
                                 <h5 class="card-title">Patient</h5>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                                <Link to="/patientLogform" class="btn btn-primary">Go somewhere</Link>
                             </div>
                         </div>
                     </div>
