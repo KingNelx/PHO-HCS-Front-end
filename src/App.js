@@ -10,6 +10,9 @@ import RHUHome from './RHU/RHUHome';
 import PatientLogform from './Patient/PatientLogform';
 import PatientRegform from './Patient/PatientRegform';
 import PatientHOME from './Patient/PatientHOME';
+import DoctorsList from './PHO/DoctorsList';
+import PatientList from './PHO/PatientList';
+import RHUList from './PHO/RHUList';
 
 const App = () => {
   return (
@@ -21,6 +24,9 @@ const App = () => {
           <Route path="phoLogform" element={< PHOLogform />} />
           <Route path="phoRegform" element={<PHORegform />} />
           <Route path="phoHome" element={<PHOHome />} />
+          <Route path="phoDocList" element={<DoctorsList />} />
+          <Route path="phoPatientList" element={<PatientList />} />
+          <Route path="phoRhuList" element={<RHUList />} />
 
           <Route path="rhuLogform" element={<RHULogform />} />
           <Route path="rhuRegform" element={<RHURegform />} />
