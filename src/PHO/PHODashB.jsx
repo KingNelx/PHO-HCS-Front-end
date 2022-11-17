@@ -13,7 +13,7 @@ const PHODashB = () => {
                 <div class="row pho-img-dashb">
                     <div class="col">
                         <div class="card">
-                            <img src={doctors} class="card-img-top" alt="..." />
+                            <img src={doctors} class="card-img-top shadow-lg" alt="..." />
                             <div class="card-body">
                                 <h5 class="card-title">List of Doctors</h5>
                                 <Link to="/phoDocList" class="btn btn-primary">View</Link>
@@ -22,7 +22,7 @@ const PHODashB = () => {
                     </div>
                     <div class="col">
                         <div class="card">
-                            <img src={rhu} class="card-img-top" alt="..." />
+                            <img src={rhu} class="card-img-top shadow-lg" alt="..." />
                             <div class="card-body">
                                 <h5 class="card-title">List of RHU</h5>
                                   <Link to="/phoRhuList" class="btn btn-primary">View</Link>
@@ -31,7 +31,7 @@ const PHODashB = () => {
                     </div>
                     <div class="col">
                         <div class="card">
-                            <img src={patients} class="card-img-top" alt="..." />
+                            <img src={patients} class="card-img-top shadow-lg" alt="..." />
                             <div class="card-body">
                                 <h5 class="card-title">List of Patients</h5>
                                   <Link to="/phoPatientList" class="btn btn-primary">View</Link>

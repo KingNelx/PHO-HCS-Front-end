@@ -14,6 +14,7 @@ import DoctorsList from './PHO/DoctorsList';
 import PatientList from './PHO/PatientList';
 import RHUList from './PHO/RHUList';
 import QrCode from './Components/QrCode';
+import Home from './Components/Home';
 
 const App = () => {
   return (
@@ -21,7 +22,7 @@ const App = () => {
       <Router>
         <Routes>
           <Route path="/" element={<Users />} />
-
+          {/* <Route path="/" element = {<Home />} /> */}
           <Route path="phoLogform" element={< PHOLogform />} />
           <Route path="phoRegform" element={<PHORegform />} />
           <Route path="phoHome" element={<PHOHome />} />
