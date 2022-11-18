@@ -25,7 +25,7 @@ const PatientLogform = () => {
                                 <input type="checkbox" class="form-check-input" id="exampleCheck1" />
                                 <label class="form-check-label" for="exampleCheck1">Remember Me</label>
                             </div>
-                            <Link  class="btn btn-primary mx-2">Log in</Link>
+                            <Link to="/patientHome" class="btn btn-primary mx-2">Log in</Link>
                             <Link to="/" class="btn btn-outline-success">Go Back</Link>
                         </div>
                     </form>
