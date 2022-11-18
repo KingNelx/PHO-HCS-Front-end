@@ -18,8 +18,29 @@ const PatientTopnav = () => {
                                     <h1 class="modal-title fs-5" id="staticBackdropLabel">Patient Profile</h1>
                                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                 </div>
-                                <div class="modal-body">
-                                    ...
+                                <div class="modal-body text-center">
+                                    <img src="https://d1nhio0ox7pgb.cloudfront.net/_img/v_collection_png/512x512/shadow/patient.png" alt=""
+                                        style={{ height: "20vh" }} className="me-auto" />
+                                    <table class="table table-striped">
+                                        <thead>
+                                            <tr>
+                                                <th scope="col">First name</th>
+                                                <th scope="col">Last name</th>
+                                                <th scope="col">Address</th>
+                                                <th scope="col">Age</th>
+                                                <th scope="col">Sex</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>Jonel</td>
+                                                <td>Tapia</td>
+                                                <td>Bato</td>
+                                                <td>22</td>
+                                                <td>Male</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
                                 </div>
                                 <div class="modal-footer">
                                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>

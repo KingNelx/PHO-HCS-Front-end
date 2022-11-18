@@ -6,7 +6,7 @@ const PatientDashB = () => {
                     <div class="col">
                         <div class="card" >
                             <img src="https://www.virtru.com/hubfs/Imported_Blog_Media/telemedicine.jpg" class="card-img-top" alt="..." />
-                            <div class="card-body">
+                            <div class="card-body shadow-lg">
                                 <h5 class="card-title">Telemedicine</h5>
                                 <a href="#" class="btn btn-primary">View</a>
                             </div>

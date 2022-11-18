@@ -7,8 +7,8 @@ const Users = () => {
 
     return (
         <div>
-            <nav className="bg-warning py-3 shadow-lg user-img">
-                <h2 className="text-center text-uppercase text-head">Catanduanes Provincial Health Office</h2>
+            <nav className="bg-light py-3 shadow-lg user-img">
+                <h1 class="modal-title  text-center" id="staticBackdropLabel">Catanduanes Provincial Health Office</h1>
             </nav>
             <div class="container text-center mt-3">
                 <div class="row ">
