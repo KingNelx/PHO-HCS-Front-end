@@ -6,3 +6,11 @@
     height: 80vh;
     width: 50%;
 }
+
+.user:hover{
+    opacity: 50%;
+}
+
+body{
+    font-family: 'Open Sans';
+}
