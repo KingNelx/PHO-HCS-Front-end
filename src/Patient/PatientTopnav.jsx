@@ -20,7 +20,7 @@ const PatientTopnav = () => {
                                 </div>
                                 <div class="modal-body text-center">
                                     <img src="https://d1nhio0ox7pgb.cloudfront.net/_img/v_collection_png/512x512/shadow/patient.png" alt=""
-                                        style={{ height: "20vh" }} className="me-auto" />
+                                        style={{ height: "20vh" }} />
                                     <table class="table table-striped">
                                         <thead>
                                             <tr>
