@@ -9,7 +9,7 @@ const PHODashB = () => {
     return (
         <div>
             <h2 className=" text-center shadow p-3 bg-body rounded">{title}</h2>
-            <div class="container text-center mt-5">
+            <div class="container text-center mt-5 px-5 py-3">
                 <div class="row pho-img-dashb">
                     <div class="col">
                         <div class="card">

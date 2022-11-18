@@ -3,9 +3,9 @@ import { Link } from "react-router-dom"
 const PHOTopnav = () => {
     return (
         <div>
-            <ul class="nav justify-content-end bg-warning py-3">
+            <ul class="nav justify-content-end bg-warning py-3 text-danger">
                 <li class="nav-item ">
-                    <a class="btn btn-outline-primary" aria-current="page" href="#">Home</a>
+                    <a class="btn btn-primary" aria-current="page" href="#">Home</a>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Account</a>
