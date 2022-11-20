@@ -8,7 +8,7 @@ const PHODashB = () => {
     const patients = "https://cdn2.hubspot.net/hubfs/4184981/images/blog/patient%20care%20in%20hospitals.jpg"
     return (
         <div>
-            <h2 className=" text-center shadow p-3 bg-body rounded">{title}</h2>
+            {/* <h2 className=" text-center shadow p-3 bg-body rounded">{title}</h2> */}
             <div class="container text-center mt-5 px-5 py-3">
                 <div class="row pho-img-dashb">
                     <div class="col">
