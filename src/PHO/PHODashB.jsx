@@ -16,7 +16,7 @@ const PHODashB = () => {
                             <img src={doctors} class="card-img-top shadow-lg user" alt="..." />
                             <div class="card-body">
                                 <h5 class="card-title">List of Doctors</h5>
-                                <Link to="/phoDocList" class="btn btn-primary">View</Link>
+                                <Link to="/phoDocList" class="btn btn-outline-primary">View</Link>
                             </div>
                         </div>
                     </div>
@@ -25,7 +25,7 @@ const PHODashB = () => {
                             <img src={rhu} class="card-img-top shadow-lg user" alt="..." />
                             <div class="card-body">
                                 <h5 class="card-title">List of RHU</h5>
-                                  <Link to="/phoRhuList" class="btn btn-primary">View</Link>
+                                <Link to="/phoRhuList" class="btn btn-outline-primary">View</Link>
                             </div>
                         </div>
                     </div>
@@ -34,10 +34,11 @@ const PHODashB = () => {
                             <img src={patients} class="card-img-top shadow-lg user" alt="..." />
                             <div class="card-body">
                                 <h5 class="card-title">List of Patients</h5>
-                                  <Link to="/phoPatientList" class="btn btn-primary">View</Link>
+                                <Link to="/phoPatientList" class="btn btn-outline-primary">View</Link>
                             </div>
                         </div>
                     </div>
+                    
                 </div>
             </div>
         </div>
