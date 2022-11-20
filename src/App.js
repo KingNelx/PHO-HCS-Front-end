@@ -14,15 +14,14 @@ import DoctorsList from './PHO/DoctorsList';
 import PatientList from './PHO/PatientList';
 import RHUList from './PHO/RHUList';
 import QrCode from './Components/QrCode';
-import Home from './Components/Home';
-
+import ServerError from './Components/ServerError.jsx'
 const App = () => {
   return (
     <div>
       <Router>
         <Routes>
           <Route path="/" element={<Users />} />
-          {/* <Route path="/" element = {<Home />} /> */}
+    
           <Route path="phoLogform" element={< PHOLogform />} />
           <Route path="phoRegform" element={<PHORegform />} />
           <Route path="phoHome" element={<PHOHome />} />
@@ -38,6 +37,8 @@ const App = () => {
           <Route path="patientLogform" element={<PatientLogform />} />
           <Route path="patientRegform" element={<PatientRegform />} />
           <Route path="patientHome" element={<PatientHOME />} />
+
+          <Route path="*" element={<ServerError />} />
 
         </Routes>
       </Router>
