@@ -5,7 +5,10 @@ const PatientDashB = () => {
                 <div class="row">
                     <div class="col">
                         <div class="card" >
-                            <img src="https://www.virtru.com/hubfs/Imported_Blog_Media/telemedicine.jpg" class="card-img-top" alt="..." />
+                            <img src="https://www.virtru.com/hubfs/Imported_Blog_Media/telemedicine.jpg" class="card-img-top" alt="..." 
+                            style={
+                                {height: "50vh"}
+                            }/>
                             <div class="card-body shadow-lg">
                                 <h5 class="card-title">Telemedicine</h5>
                                 <a href="#" class="btn btn-primary">View</a>

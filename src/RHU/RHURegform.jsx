@@ -44,7 +44,7 @@ const RHURegform = () => {
                             <input type="text" class="form-control" id="inputZip" />
                         </div>
                         <div class="col-12">
-                            <Link to="/phoLogform" type="submit" class="btn btn-primary">Create Account</Link>
+                            <Link to="/rhuLogform" type="submit" class="btn btn-primary">Create Account</Link>
                         </div>
                     </form>
                 </div>
